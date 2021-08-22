@@ -1,0 +1,29 @@
+.cardContainer {
+	display: flex;
+	flex-direction: row;
+	margin-top: 6rem;
+}
+
+.cardContainer img {
+	border-radius: 4px;
+}
+
+.cardDescription {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.cardDescription h4 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+	color: var(--color-white);
+	margin: 0;
+}
+
+.cardDescription p {
+	color: var(--color-gray);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+}

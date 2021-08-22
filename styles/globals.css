@@ -1,20 +1,21 @@
 :root {
-	--background: #0e172c;
-	--headline: #b4b499;
-	--paragraph: #d9d4e7;
-	--button: #a786df;
-	--button-text: #d9d4e7;
-	--link: #a786df;
+	--font-sans: 'Inter', sans-serif;
+	--color-black: rgba(19, 19, 21, 1);
+	--color-white: rgba(255, 255, 255, 1);
+	--color-gray: rgba(128, 128, 128, 1);
+	--color-blue: rgba(3, 136, 252, 1);
+	--color-yellow: rgba(255, 221, 0, 1);
+	--color-vue: #36d28c;
+	--color-react: #4cd7fd;
 }
 
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	background-color: var(--background);
-	color: var(--paragraph);
+	font-family: var(--font-sans);
+	background-color: var(--color-white);
+	color: var(--color-black);
 }
 
 * {
@@ -22,19 +23,6 @@ body {
 }
 
 a {
-	color: var(--link);
-	text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: var(--headline);
-}
-
-p {
-	color: var(--paragraph);
+	text-decoration: underline;
+	color: var(--color-blue);
 }
