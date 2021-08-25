@@ -31,3 +31,8 @@
 	text-decoration: underline;
 	color: var(--color-black);
 }
+@media screen and (max-width: 1000px) {
+	.socialmedia {
+		flex-direction: column;
+	}
+}

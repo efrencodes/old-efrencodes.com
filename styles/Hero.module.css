@@ -26,3 +26,13 @@
 .paragraphReact {
 	color: var(--color-react);
 }
+
+@media screen and (max-width: 1000px) {
+	.main {
+		padding: 2rem 1rem;
+	}
+	.subtitle,
+	.paragraph {
+		width: 100%;
+	}
+}

@@ -1,14 +1,8 @@
 .cardContainer {
 	display: flex;
-	/* flex-direction: row; */
 	margin-top: 6rem;
 	justify-content: center;
 }
-
-/* .cardImage {
-	width: 500px;
-	height: 230px;
-} */
 
 .cardImage img {
 	border-radius: 4px;
@@ -33,4 +27,18 @@
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 21px;
+}
+
+@media screen and (max-width: 1000px) {
+	.cardContainer {
+		flex-direction: column !important;
+	}
+	.cardImage {
+		width: 100%;
+	}
+	.cardDescription {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 }

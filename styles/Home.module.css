@@ -5,3 +5,9 @@
 	margin: 0 auto;
 	height: auto;
 }
+
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 100%;
+	}
+}

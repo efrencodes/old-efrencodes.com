@@ -1,5 +1,4 @@
 .projectContainer {
-	/* background-color: var(--color-black); */
 	background: #673ab7; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to right,
@@ -35,4 +34,15 @@
 
 .projectList li a {
 	text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+	.projectContainer {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		margin-right: 0.5rem;
+		margin-left: 0.5rem;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
 }
