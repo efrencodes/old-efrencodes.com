@@ -2,12 +2,14 @@ const media = [
 	{
 		name: 'linkedln',
 		icon: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1621845051/efrenmartinez.dev/icons/logo-linkedin_isre0b.svg',
-		href: 'https://www.linkedin.com/in/efren-martinez-rodriguez/'
+		href: 'https://www.linkedin.com/in/efren-martinez-rodriguez/',
+		alt: 'Logo LinkedIn - efren-martinez-rodriguez'
 	},
 	{
 		name: 'github',
 		icon: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1621845051/efrenmartinez.dev/icons/logo-github_g7cma4.svg',
-		href: 'https://github.com/efrenmartinez/'
+		href: 'https://github.com/efrenmartinez/',
+		alt: 'Logo Github - efrenmartinez'
 	}
 ]
 export default async (req, res) => {

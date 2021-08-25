@@ -22,7 +22,7 @@ const proyecto = [
 			'#Google_Analytics',
 			'#SEO'
 		]
-	},
+	}
 	// {
 	// 	name: 'Suzuki México',
 	// 	url: 'https://www.suzuki.com.mx/autos',
@@ -34,31 +34,39 @@ const proyecto = [
 	// 		alt: 'Suzuki México',
 	// 		width: 400,
 	// 		height: 700
-	// 	}
+	// 	},
+	// 	tecnologies: [
+	// 		'#VueJS',
+	// 		'#Quasar_Framework',
+	// 		'#HTML/CSS',
+	// 		'#JavaScript',
+	// 		'#Google_Maps',
+	// 		'#OpenPay'
+	// 	]
 	// },
-	{
-		name: 'Bticino Store México',
-		url: 'https://store.bticino.com.mx/',
-		background: '#ffc7f4',
-		year: 2020,
-		month: 9,
-		img: {
-			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1620719361/efrenmartinez.dev/projects/store-bticino_jutzgz.jpg',
-			alt: 'Store Bticino',
-			width: 500,
-			height: 300
-		},
-		description:
-			'Project completed in Marciano Studio. The goal was to rebuild the site from scratch to have a maintainable code as well as improve performance.',
-		tecnologies: [
-			'#VueJS',
-			'#Quasar_Framework',
-			'#HTML/CSS',
-			'#JavaScript',
-			'#Google_Maps',
-			'#OpenPay'
-		]
-	}
+	// {
+	// 	name: 'Bticino Store México',
+	// 	url: 'https://store.bticino.com.mx/',
+	// 	background: '#ffc7f4',
+	// 	year: 2020,
+	// 	month: 9,
+	// 	img: {
+	// 		src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1620719361/efrenmartinez.dev/projects/store-bticino_jutzgz.jpg',
+	// 		alt: 'Store Bticino',
+	// 		width: 500,
+	// 		height: 300
+	// 	},
+	// 	description:
+	// 		'Project completed in Marciano Studio. The goal was to rebuild the site from scratch to have a maintainable code as well as improve performance.',
+	// 	tecnologies: [
+	// 		'#VueJS',
+	// 		'#Quasar_Framework',
+	// 		'#HTML/CSS',
+	// 		'#JavaScript',
+	// 		'#Google_Maps',
+	// 		'#OpenPay'
+	// 	]
+	// }
 ]
 export default async (req, res) => {
 	try {

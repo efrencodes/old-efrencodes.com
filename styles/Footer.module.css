@@ -1,0 +1,33 @@
+.footer {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.socialmedia {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.socialmedia a:first-child {
+	text-decoration: none;
+	color: var(--color-black);
+	margin-right: 20px;
+}
+
+.copy {
+	margin-top: 4rem;
+}
+
+.copy p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.copy a {
+	font-size: 12px;
+	text-decoration: underline;
+	color: var(--color-black);
+}

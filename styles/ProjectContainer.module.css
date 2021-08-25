@@ -1,0 +1,27 @@
+.projectContainer {
+	background-color: var(--color-black);
+	color: var(--color-white);
+	border-radius: 4px;
+	min-height: 500px;
+	height: auto;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.projectTitle {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+.projectList {
+	list-style: outside none none;
+	padding-left: 0px;
+	color: var(--colors-white);
+}
+
+.projectList li a {
+	text-decoration: none;
+}

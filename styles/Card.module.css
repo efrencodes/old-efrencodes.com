@@ -4,7 +4,12 @@
 	margin-top: 6rem;
 }
 
-.cardContainer img {
+.cardImage {
+	width: 450px;
+	height: 250px;
+}
+
+.cardImage img {
 	border-radius: 4px;
 }
 
@@ -18,7 +23,7 @@
 	line-height: 30px;
 	font-weight: 500;
 	color: var(--color-white);
-	margin: 0;
+	margin-top: 2rem;
 }
 
 .cardDescription p {

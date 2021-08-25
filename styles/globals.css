@@ -4,7 +4,7 @@
 	--color-white: rgba(255, 255, 255, 1);
 	--color-gray: rgba(128, 128, 128, 1);
 	--color-blue: rgba(3, 136, 252, 1);
-	--color-yellow: rgba(255, 221, 0, 1);
+	--color-yellow: rgba(250, 217, 0, 0.99);
 	--color-vue: #36d28c;
 	--color-react: #4cd7fd;
 }
@@ -20,6 +20,11 @@ body {
 
 * {
 	box-sizing: border-box;
+}
+
+::selection {
+	background-color: var(--color-yellow);
+	color: var(--colors-black);
 }
 
 a {
