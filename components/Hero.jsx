@@ -6,6 +6,12 @@ import Logotipo from './Logotipo'
 const Hero = () => {
 	return (
 		<main className={styles.main}>
+			<Image
+				src="https://res.cloudinary.com/efrenmartinez/image/upload/v1608834240/efrenmartinez.dev/favicon_b9cqkx.png"
+				alt="Foto"
+				width={70}
+				height={70}
+			/>
 			<Logotipo />
 			<h1 className={styles.subtitle}>
 				I´m FrontEnd Enginner from Queretaro, Mexico 🇲🇽 . I code, write

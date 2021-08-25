@@ -5,11 +5,10 @@ const proyecto = [
 		background: '#c5dae8',
 		year: 2021,
 		month: 3,
+		reverse: true,
 		img: {
 			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1620713904/efrenmartinez.dev/projects/ecommerce-ordiexpres_g8okrm.jpg',
-			alt: 'Ecommerce Ordiexpress',
-			width: 500,
-			height: 300
+			alt: 'Ecommerce Ordiexpress'
 		},
 		description:
 			'Ecommerce Ordiexpres is a project for Canada client. Website is available in English and French.',
@@ -22,7 +21,7 @@ const proyecto = [
 			'#Google_Analytics',
 			'#SEO'
 		]
-	}
+	},
 	// {
 	// 	name: 'Suzuki México',
 	// 	url: 'https://www.suzuki.com.mx/autos',
@@ -44,29 +43,27 @@ const proyecto = [
 	// 		'#OpenPay'
 	// 	]
 	// },
-	// {
-	// 	name: 'Bticino Store México',
-	// 	url: 'https://store.bticino.com.mx/',
-	// 	background: '#ffc7f4',
-	// 	year: 2020,
-	// 	month: 9,
-	// 	img: {
-	// 		src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1620719361/efrenmartinez.dev/projects/store-bticino_jutzgz.jpg',
-	// 		alt: 'Store Bticino',
-	// 		width: 500,
-	// 		height: 300
-	// 	},
-	// 	description:
-	// 		'Project completed in Marciano Studio. The goal was to rebuild the site from scratch to have a maintainable code as well as improve performance.',
-	// 	tecnologies: [
-	// 		'#VueJS',
-	// 		'#Quasar_Framework',
-	// 		'#HTML/CSS',
-	// 		'#JavaScript',
-	// 		'#Google_Maps',
-	// 		'#OpenPay'
-	// 	]
-	// }
+	{
+		name: 'Bticino Store México',
+		url: 'https://store.bticino.com.mx/',
+		background: '#ffc7f4',
+		year: 2020,
+		month: 9,
+		reverse: false,
+		img: {
+			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1620719361/efrenmartinez.dev/projects/store-bticino_jutzgz.jpg',
+			alt: 'Store Bticino'
+		},
+		description:
+			'Project completed in Marciano Studio. The goal was to rebuild the site from scratch to have a maintainable code as well as improve performance.',
+		tecnologies: [
+			'#VueJS',
+			'#Quasar_Framework',
+			'#HTML/CSS',
+			'#JavaScript',
+			'#OpenPay'
+		]
+	}
 ]
 export default async (req, res) => {
 	try {

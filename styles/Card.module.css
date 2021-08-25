@@ -1,19 +1,21 @@
 .cardContainer {
 	display: flex;
-	flex-direction: row;
+	/* flex-direction: row; */
 	margin-top: 6rem;
+	justify-content: center;
 }
 
-.cardImage {
-	width: 450px;
-	height: 250px;
-}
+/* .cardImage {
+	width: 500px;
+	height: 230px;
+} */
 
 .cardImage img {
 	border-radius: 4px;
 }
 
 .cardDescription {
+	width: 450px;
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
@@ -27,8 +29,8 @@
 }
 
 .cardDescription p {
-	color: var(--color-gray);
-	font-size: 14px;
-	font-weight: 500;
+	color: var(--color-white);
+	font-size: 16px;
+	font-weight: 300;
 	line-height: 21px;
 }

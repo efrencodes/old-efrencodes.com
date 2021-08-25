@@ -22,6 +22,7 @@ const ProjectContainer = (props) => {
 								imgAlt={project.img.alt}
 								tecnologies={project.tecnologies}
 								description={project.description}
+								reverse={project.reverse}
 							/>
 						</a>
 					</li>

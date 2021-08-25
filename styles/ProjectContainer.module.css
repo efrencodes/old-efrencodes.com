@@ -1,5 +1,16 @@
 .projectContainer {
-	background-color: var(--color-black);
+	/* background-color: var(--color-black); */
+	background: #673ab7; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#512da8,
+		#673ab7
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#512da8,
+		#673ab7
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: var(--color-white);
 	border-radius: 4px;
 	min-height: 500px;
