@@ -48,7 +48,7 @@ export default function Home(/* { posts, response } */) {
 					property="og:description"
 					content="I´m FrontEnd Enginner from Queretaro, Mexico. I code, write and build stuff on internet."
 				/>
-				<meta property="og:image" content="" />
+				<meta property="og:image" content="https://res.cloudinary.com/efrenmartinez/image/upload/v1629919661/efrenmartinez.dev/efren-martinez-rodriguez_qojelm.png" />
 				// Twitter Card
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta
@@ -63,7 +63,7 @@ export default function Home(/* { posts, response } */) {
 					property="twitter:description"
 					content="I´m FrontEnd Enginner from Queretaro, Mexico. I code, write and build stuff on internet."
 				/>
-				<meta property="twitter:image" content="" />
+				<meta property="twitter:image" content="https://res.cloudinary.com/efrenmartinez/image/upload/v1629919661/efrenmartinez.dev/efren-martinez-rodriguez_qojelm.png" />
 				<meta property="twitter:creator" content="@efrenmartinezmx" />
 				<meta property="twitter:site" content="@efrenmartinezmx" />
 				<meta
