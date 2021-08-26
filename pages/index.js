@@ -50,7 +50,7 @@ export default function Home(/* { posts, response } */) {
 				/>
 				<meta
 					property="og:image"
-					content="https://res.cloudinary.com/efrenmartinez/image/upload/v1630004019/efrenmartinez.dev/thumbs_seo_gahvv8.png"
+					content="https://res.cloudinary.com/efrenmartinez/image/upload/v1630004019/efrenmartinez.dev/thumbs_seo.png"
 				/>
 				// Twitter Card
 				<meta property="twitter:card" content="summary_large_image" />
@@ -68,7 +68,7 @@ export default function Home(/* { posts, response } */) {
 				/>
 				<meta
 					property="twitter:image"
-					content="https://res.cloudinary.com/efrenmartinez/image/upload/v1630004019/efrenmartinez.dev/thumbs_seo_gahvv8.png"
+					content="https://res.cloudinary.com/efrenmartinez/image/upload/v1630004019/efrenmartinez.dev/thumbs_seo.png"
 				/>
 				<meta property="twitter:creator" content="@efrenmartinezmx" />
 				<meta property="twitter:site" content="@efrenmartinezmx" />
