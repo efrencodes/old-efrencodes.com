@@ -27,28 +27,6 @@ const Footer = (props) => {
 					))}
 				</div>
 			</div>
-			<div className={styles.copy}>
-				<p>
-					Made this website in
-					<a
-						href="https://nextjs.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						{' '}
-						Next.js{' '}
-					</a>
-					, deployed on{' '}
-					<a
-						href="https://vercel.com/efrenmartinez"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Vercel{' '}
-					</a>
-					.
-				</p>
-			</div>
 		</footer>
 	)
 }

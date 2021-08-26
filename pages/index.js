@@ -30,7 +30,7 @@ export default function Home(/* { posts, response } */) {
 				<title>Efrén Martínez Rodríguez | Front-end engineer</title>
 				<meta
 					name="description"
-					content="I´m FrontEnd Enginner from Queretaro, Mexico. I code, write and build stuff on internet."
+					content="I´m Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet."
 				/>
 				<meta charset="UTF-8" />
 				<meta
@@ -42,13 +42,16 @@ export default function Home(/* { posts, response } */) {
 				<meta property="og:title" content="website" />
 				<meta
 					property="og:type"
-					content="Efrén Martínez Rodríguez -- Front-end engineer"
+					content="Efrén Martínez Rodríguez | Front-end engineer"
 				/>
 				<meta
 					property="og:description"
-					content="I´m FrontEnd Enginner from Queretaro, Mexico. I code, write and build stuff on internet."
+					content="I´m Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet."
 				/>
-				<meta property="og:image" content="https://res.cloudinary.com/efrenmartinez/image/upload/v1629919661/efrenmartinez.dev/efren-martinez-rodriguez_qojelm.png" />
+				<meta
+					property="og:image"
+					content="https://res.cloudinary.com/efrenmartinez/image/upload/v1630004019/efrenmartinez.dev/thumbs_seo_gahvv8.png"
+				/>
 				// Twitter Card
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta
@@ -57,13 +60,16 @@ export default function Home(/* { posts, response } */) {
 				/>
 				<meta
 					property="twitter:title"
-					content="Efrén Martínez Rodríguez -- Front-end engineer"
+					content="Efrén Martínez Rodríguez | Front-end engineer"
 				/>
 				<meta
 					property="twitter:description"
-					content="I´m FrontEnd Enginner from Queretaro, Mexico. I code, write and build stuff on internet."
+					content="I´m Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet."
 				/>
-				<meta property="twitter:image" content="https://res.cloudinary.com/efrenmartinez/image/upload/v1629919661/efrenmartinez.dev/efren-martinez-rodriguez_qojelm.png" />
+				<meta
+					property="twitter:image"
+					content="https://res.cloudinary.com/efrenmartinez/image/upload/v1630004019/efrenmartinez.dev/thumbs_seo_gahvv8.png"
+				/>
 				<meta property="twitter:creator" content="@efrenmartinezmx" />
 				<meta property="twitter:site" content="@efrenmartinezmx" />
 				<meta

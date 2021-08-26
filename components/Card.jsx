@@ -15,7 +15,7 @@ const Card = (props) => {
 			<div className={styles.cardDescription}>
 				<h4>{name}</h4>
 				<p>{description}</p>
-				<p>Powered by: {tecnologies.join(', ')}</p>
+				<p>{tecnologies.join(' ')}</p>
 			</div>
 		</div>
 	)

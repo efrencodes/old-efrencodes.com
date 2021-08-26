@@ -1,65 +1,57 @@
 const proyecto = [
 	{
-		name: 'Ecommerce Ordiexpres',
+		name: 'Ecommerce Ordiexpress',
 		url: 'https://www.ordiexpress.com/',
-		background: '#c5dae8',
-		year: 2021,
-		month: 3,
 		reverse: true,
 		img: {
-			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1620713904/efrenmartinez.dev/projects/ecommerce-ordiexpres_g8okrm.jpg',
-			alt: 'Ecommerce Ordiexpress'
+			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1630000496/efrenmartinez.dev/projects/project_ordiexpress.png',
+			alt: 'Project - Ecommerce Ordiexpress'
 		},
-		description:
-			'Ecommerce Ordiexpres is a project for Canada client. Website is available in English and French.',
+		// description:
+		// 	'Ecommerce Ordiexpres is a project for Canada client. Website is available in English and French.',
 		tecnologies: [
 			'#VueJS',
-			'#Quasar_Framework',
+			'#QuasarFramework',
 			'#HTML/CSS',
 			'#JavaScript',
 			'#i18n',
-			'#Google_Analytics',
-			'#SEO'
+			'#GoogleAnalytics',
+			'#SEO',
+			'#ApiRest'
 		]
 	},
-	// {
-	// 	name: 'Suzuki México',
-	// 	url: 'https://www.suzuki.com.mx/autos',
-	// 	background: '#c5dae8',
-	// 	year: 2020,
-	// 	month: 6,
-	// 	img: {
-	// 		src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1608836158/efrenmartinez.dev/projects/suzuki-swift-sport_k5ikza_qzemxy.png',
-	// 		alt: 'Suzuki México',
-	// 		width: 400,
-	// 		height: 700
-	// 	},
-	// 	tecnologies: [
-	// 		'#VueJS',
-	// 		'#Quasar_Framework',
-	// 		'#HTML/CSS',
-	// 		'#JavaScript',
-	// 		'#Google_Maps',
-	// 		'#OpenPay'
-	// 	]
-	// },
 	{
-		name: 'Bticino Store México',
-		url: 'https://store.bticino.com.mx/',
-		background: '#ffc7f4',
-		year: 2020,
-		month: 9,
+		name: 'Suzuki México Autos',
+		url: 'https://www.suzuki.com.mx/autos',
 		reverse: false,
 		img: {
-			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1620719361/efrenmartinez.dev/projects/store-bticino_jutzgz.jpg',
-			alt: 'Store Bticino'
+			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1630000497/efrenmartinez.dev/projects/project_suzuki.png',
+			alt: 'Project - Suzuki México Autos'
 		},
-		description:
-			'Project completed in Marciano Studio. The goal was to rebuild the site from scratch to have a maintainable code as well as improve performance.',
 		tecnologies: [
 			'#VueJS',
-			'#Quasar_Framework',
+			'#QuasarFramework',
 			'#HTML/CSS',
+			'#JavaScript',
+			'#GoogleMaps',
+			'#ApiRest'
+		]
+	},
+	{
+		name: 'Ecommerce Bticino México',
+		url: 'https://store.bticino.com.mx/',
+		reverse: true,
+		img: {
+			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1630000496/efrenmartinez.dev/projects/project_bticino_store.png',
+			alt: 'Project - Store Bticino México'
+		},
+		// description:
+		// 	'Project completed in Marciano Studio. The goal was to rebuild the site from scratch to have a maintainable code as well as improve performance.',
+		tecnologies: [
+			'#VueJS',
+			'#QuasarFramework',
+			'#HTML/CSS',
+			'#ApiRest',
 			'#JavaScript',
 			'#OpenPay'
 		]

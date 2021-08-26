@@ -14,7 +14,7 @@ const Hero = () => {
 			/>
 			<Logotipo />
 			<h1 className={styles.subtitle}>
-				I´m FrontEnd Enginner from Queretaro, Mexico 🇲🇽 . I code, write
+				I´m Front End Engineer from Queretaro, Mexico 🇲🇽 . I code, write
 				and build stuff on internet.
 			</h1>
 			<h2 className={styles.paragraph}>

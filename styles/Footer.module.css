@@ -17,20 +17,6 @@
 	margin-right: 20px;
 }
 
-.copy {
-	margin-top: 4rem;
-}
-
-.copy p {
-	font-size: 12px;
-	text-align: center;
-}
-
-.copy a {
-	font-size: 12px;
-	text-decoration: underline;
-	color: var(--color-black);
-}
 @media screen and (max-width: 1000px) {
 	.socialmedia {
 		flex-direction: column;
