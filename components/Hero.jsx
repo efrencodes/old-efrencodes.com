@@ -47,13 +47,13 @@ const Hero = () => {
 				</a>
 				{'   '}or{'   '}
 				<a
-					href="https://github.com/efrenmartinez/"
+					href="https://github.com/efrencodes/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
 					<Image
 						src="https://res.cloudinary.com/efrenmartinez/image/upload/v1621845051/efrenmartinez.dev/icons/logo-github_g7cma4.svg"
-						alt="Logo Github - efrenmartinez"
+						alt="Logo Github - efrencodes"
 						width={25}
 						height={25}
 					/>
