@@ -29,6 +29,10 @@
 	line-height: 25px;
 }
 
+.cardDescription a {
+	color: var(--color-white);
+}
+
 @media screen and (max-width: 1000px) {
 	.cardContainer {
 		flex-direction: column !important;

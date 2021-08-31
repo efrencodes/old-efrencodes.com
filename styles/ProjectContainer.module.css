@@ -32,10 +32,6 @@
 	color: var(--colors-white);
 }
 
-.projectList li a {
-	text-decoration: none;
-}
-
 @media screen and (max-width: 1000px) {
 	.projectContainer {
 		padding-left: 1rem;
