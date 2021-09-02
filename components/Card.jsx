@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Card.module.css'
 
 const Card = (props) => {
-	const { name, imgSrc, imgAlt, tecnologies, description, reverse, url } =
+	const { name, imgSrc, imgAlt, tecnologies, reverse, url } =
 		props
 	return (
 		<div
@@ -16,9 +16,8 @@ const Card = (props) => {
 				</a>
 			</div>
 			<div className={styles.cardDescription}>
-				<h4>{name}</h4>
-				<p>{description}</p>
-				<p>{tecnologies.join(' ')}</p>
+				<p className={styles.textTecnologies}>{tecnologies.join(' ')}</p>
+				<h4 className={styles.titleProyect}>{name}</h4>
 				Visit{' '}
 				<a href={url} target="_blank" rel="noopener noreferrer">
 					project

@@ -16,7 +16,6 @@ const ProjectContainer = (props) => {
 							imgSrc={project.img.src}
 							imgAlt={project.img.alt}
 							tecnologies={project.tecnologies}
-							description={project.description}
 							reverse={project.reverse}
 							url={project.url}
 						/>

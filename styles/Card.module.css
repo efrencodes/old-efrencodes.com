@@ -22,15 +22,22 @@
 	margin-top: 2rem;
 }
 
-.cardDescription p {
+.titleProyect {
 	color: var(--color-white);
-	font-size: 16px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 500;
 	line-height: 25px;
 }
 
 .cardDescription a {
 	color: var(--color-white);
+}
+
+.textTecnologies {
+	color: var(--color-white);
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
 }
 
 @media screen and (max-width: 1000px) {
