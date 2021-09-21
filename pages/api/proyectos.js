@@ -17,7 +17,7 @@ const proyecto = [
 			'#i18n',
 			'#GoogleAnalytics',
 			'#SEO',
-			'#ApiRest'
+			'#APIREST'
 		]
 	},
 	{
@@ -34,7 +34,7 @@ const proyecto = [
 			'#HTML/CSS',
 			'#JavaScript',
 			'#GoogleMaps',
-			'#ApiRest'
+			'#APIREST'
 		]
 	},
 	{
@@ -51,7 +51,7 @@ const proyecto = [
 			'#VueJS',
 			'#QuasarFramework',
 			'#HTML/CSS',
-			'#ApiRest',
+			'#APIREST',
 			'#JavaScript',
 			'#OpenPay'
 		]
