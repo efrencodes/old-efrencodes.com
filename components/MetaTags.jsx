@@ -4,6 +4,7 @@ const MetaTags = () => {
 	return (
 		<Head>
 			<title>Efrén Martínez Rodríguez | Front-end engineer</title>
+			<link rel="canonical" href="https://efrenmartinez.dev/" />
 			<meta
 				name="description"
 				content="I´m Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet."
