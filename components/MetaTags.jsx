@@ -4,7 +4,7 @@ const MetaTags = () => {
 	return (
 		<Head>
 			<title>Efrén Martínez Rodríguez | Front-end engineer</title>
-			<link rel="canonical" href="https://efrenmartinez.dev/" />
+			<link rel="canonical" href="https://efrenmartinez.dev" />
 			<meta
 				name="description"
 				content="I´m Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet."
@@ -12,7 +12,7 @@ const MetaTags = () => {
 			<meta charset="UTF-8" />
 			<meta
 				name="keywords"
-				content="technology,software,web,development,fullstack,software engineer,developer,jamstack"
+				content="querétaro,technology,software,web,development,fullstack,software engineer,developer,jamstack"
 			/>
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://efrenmartinez.dev" />
