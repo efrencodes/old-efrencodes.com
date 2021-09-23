@@ -19,9 +19,8 @@ const Card = (props) => {
 					{tecnologies.join(' ')}
 				</p>
 				<h4 className={styles.titleProyect}>{name}</h4>
-				Visit{' '}
 				<a href={url} target="_blank" rel="noopener noreferrer">
-					project
+					Visit project
 				</a>
 			</div>
 		</div>

@@ -2,9 +2,9 @@ import styles from '../styles/Logotipo.module.css'
 
 const Logotipo = () => {
 	return (
-		<h1 className={styles.title}>
+		<h3 className={styles.title}>
 			EFREN <span>MARTINEZ</span>
-		</h1>
+		</h3>
 	)
 }
 
