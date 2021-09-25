@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import ProjectContainer from '../components/ProjectContainer'
+import MetaTags from '../components/MetaTags'
 // import { getAllFilesMetadata } from '../lib/mdx'
 
 export const getStaticProps = async () => {
@@ -24,6 +25,8 @@ export const getStaticProps = async () => {
 export default function Home({ projects, socialMedia }) {
 	return (
 		<div className={styles.container}>
+			<MetaTags />
+
 			<Hero />
 
 			<ProjectContainer projects={projects} />

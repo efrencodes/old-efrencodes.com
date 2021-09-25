@@ -1,12 +1,9 @@
 import Document, { Html, Main, Head, NextScript } from 'next/document'
-import MetaTags from '../components/MetaTags'
 class MyDocument extends Document {
 	render() {
 		return (
 			<Html lang="en">
-				<Head>
-					<MetaTags />
-				</Head>
+				<Head></Head>
 				<body>
 					<Main />
 					<NextScript />
