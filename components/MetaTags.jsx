@@ -3,14 +3,11 @@ import Head from 'next/head'
 const MetaTags = () => {
 	return (
 		<Head>
-			<title>
-				Efrén Martínez Rodríguez Front-End Engineer VueJS ReactJS
-				Jamstack
-			</title>
+			<title>Efrén Martínez | FrontEnd Engineer VueJS/ReactJS</title>
 			<link rel="canonical" href="https://efrenmartinez.dev/" />
 			<meta
 				name="description"
-				content="I´m Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet. Experiencie with VueJS and ReactJS."
+				content="I'm Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet."
 			/>
 			<meta charset="UTF-8" />
 			<meta
@@ -22,11 +19,11 @@ const MetaTags = () => {
 			<meta property="og:title" content="website" />
 			<meta
 				property="og:type"
-				content="Efrén Martínez Rodríguez Front-End Engineer VueJS ReactJS Jamstack"
+				content="Efrén Martínez | Front-End Engineer VueJS/ReactJS"
 			/>
 			<meta
 				property="og:description"
-				content="I´m Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet. Experiencie with VueJS and ReactJS."
+				content="I'm Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet."
 			/>
 			<meta
 				property="og:image"
@@ -37,11 +34,11 @@ const MetaTags = () => {
 			<meta property="twitter:url" content="https://efrenmartinez.dev/" />
 			<meta
 				property="twitter:title"
-				content="Efrén Martínez Rodríguez Front-End Engineer VueJS ReactJS Jamstack"
+				content="Efrén Martínez | Front-End Engineer VueJS/ReactJS"
 			/>
 			<meta
 				property="twitter:description"
-				content="I´m Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet. Experiencie with VueJS and ReactJS."
+				content="I'm Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet."
 			/>
 			<meta
 				property="twitter:image"
@@ -52,10 +49,6 @@ const MetaTags = () => {
 			<meta
 				property="twitter:image:alt"
 				content="Efrén Martínez Rodríguez - Front-end engineer"
-			/>
-			<link
-				rel="icon"
-				href="https://res.cloudinary.com/efrenmartinez/image/upload/v1608834240/efrenmartinez.dev/favicon_lvhhjc.svg"
 			/>
 			<link rel="preconnect" href="https://fonts.googleapis.com" />
 			<link
