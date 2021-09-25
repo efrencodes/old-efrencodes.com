@@ -1,28 +1,27 @@
-import { useState, useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import ProjectContainer from '../components/ProjectContainer'
 // import { getAllFilesMetadata } from '../lib/mdx'
 
-export default function Home(/* { posts, response } */) {
-	const [projects, setProjects] = useState([])
-	const [socialMedia, setSocialMedia] = useState([])
+export const getStaticProps = async () => {
+	const URL = 'https://www.efrenmartinez.dev/'
+	const projects = await fetch(`${URL}api/proyectos`, {
+		method: 'GET'
+	}).then((res) => res.json())
+	const socialMedia = await fetch(`${URL}api/socialMedia`, {
+		method: 'GET'
+	}).then((res) => res.json())
 
-	useEffect(async () => {
-		let response = await fetch('api/proyectos', {
-			method: 'GET'
-		}).then((res) => res.json())
-		setProjects(response)
-	}, [])
+	return {
+		props: {
+			projects,
+			socialMedia
+		}
+	}
+}
 
-	useEffect(async () => {
-		let response = await fetch('api/socialMedia', {
-			method: 'GET'
-		}).then((res) => res.json())
-		setSocialMedia(response)
-	}, [])
-
+export default function Home({ projects, socialMedia }) {
 	return (
 		<div className={styles.container}>
 			<Hero />
