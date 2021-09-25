@@ -8,16 +8,16 @@ const Footer = (props) => {
 		<footer className={styles.footer}>
 			<div className={styles.socialmedia}>
 				<div className="">
-					{socialMedia.map((social) => (
+					{socialMedia.map(({ name, href, icon, alt }) => (
 						<a
-							key={social.name}
-							href={social.href}
+							key={name}
+							href={href}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<Image
-								src={social.icon}
-								alt={social.alt}
+								src={icon}
+								alt={alt}
 								width={25}
 								height={25}
 							/>
