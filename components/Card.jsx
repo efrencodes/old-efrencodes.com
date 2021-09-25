@@ -7,7 +7,7 @@ const Card = (props) => {
 	return (
 		<div
 			className={styles.cardContainer}
-			style={{ 'flex-direction': reverse ? 'row' : 'row-reverse' }}
+			style={{ flexDirection: reverse ? 'row' : 'row-reverse' }}
 		>
 			<div className={styles.cardImage}>
 				<a href={url} target="_blank" rel="noopener noreferrer">
