@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/Footer.module.css'
-import Logotipo from './Logotipo'
 
 const Footer = (props) => {
 	const { socialMedia } = props
