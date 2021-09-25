@@ -1,37 +1,48 @@
 .main {
-	padding: 6rem 1rem;
+	padding: 7rem 1rem;
 }
 
-.subtitle {
-	font-size: 23px;
-	line-height: 34px;
+.title {
+	font-size: 26px;
+	line-height: 35px;
 	font-weight: 500;
 	width: 600px;
 	margin-top: 5rem;
 	margin-bottom: 3.5rem;
 }
 
+.subtitle {
+	font-size: 23px;
+	line-height: 34px;
+	font-weight: 400;
+	width: 800px;
+	margin-bottom: 3.5rem;
+	color: var(--color-gray);
+}
+
 .paragraph {
 	font-size: 23px;
 	line-height: 34px;
-	font-weight: 500;
+	font-weight: 400;
 	width: 800px;
 	margin-bottom: 3.5rem;
+	color: var(--color-gray);
 }
 
-.paragraphVue {
+.vue {
 	color: var(--color-vue);
 }
 
-.paragraphReact {
+.react {
 	color: var(--color-react);
 }
 
 @media screen and (max-width: 1000px) {
 	.main {
-		padding: 2rem 1rem;
+		padding: 4rem 1rem;
 	}
 	.subtitle,
+	.title,
 	.paragraph {
 		width: 100%;
 	}

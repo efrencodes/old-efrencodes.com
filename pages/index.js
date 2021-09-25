@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import ProjectContainer from '../components/ProjectContainer'
-import MetaTags from '../components/MetaTags'
 // import { getAllFilesMetadata } from '../lib/mdx'
 
 export default function Home(/* { posts, response } */) {
@@ -26,8 +25,6 @@ export default function Home(/* { posts, response } */) {
 
 	return (
 		<div className={styles.container}>
-			<MetaTags />
-
 			<Hero />
 
 			<ProjectContainer projects={projects} />

@@ -11,17 +11,19 @@ const Card = (props) => {
 		>
 			<div className={styles.cardImage}>
 				<a href={url} target="_blank" rel="noopener noreferrer">
-					<Image src={imgSrc} alt={imgAlt} width={400} height={280} />
+					<Image src={imgSrc} alt={imgAlt} width={490} height={320} />
 				</a>
 			</div>
 			<div className={styles.cardDescription}>
-				<p className={styles.textTecnologies}>
+				<p className={styles.paragraphProyect}>
 					{tecnologies.join(' ')}
 				</p>
 				<h4 className={styles.titleProyect}>{name}</h4>
-				<a href={url} target="_blank" rel="noopener noreferrer">
-					Visit project
-				</a>
+				<p className={styles.paragraphProyect}>
+					<a href={url} target="_blank" rel="noopener noreferrer">
+						View project
+					</a>
+				</p>
 			</div>
 		</div>
 	)

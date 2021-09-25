@@ -2,11 +2,12 @@
 	--font-sans: 'Inter', sans-serif;
 	--color-black: rgba(19, 19, 21, 1);
 	--color-white: rgba(255, 255, 255, 1);
-	--color-gray: rgba(128, 128, 128, 1);
+	--color-gray: rgb(91, 110, 128);
 	--color-blue: rgba(3, 136, 252, 1);
 	--color-yellow: rgba(250, 217, 0, 0.99);
-	--color-vue: #36d28c;
-	--color-react: #4cd7fd;
+	--color-pink: rgb(222, 15, 102);
+	--color-vue: #11998e;
+	--color-react: #2f80ed;
 }
 
 html,
@@ -14,8 +15,8 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: var(--font-sans);
-	background-color: var(--color-white);
 	color: var(--color-black);
+	background-image: linear-gradient(180deg, #fff, #f6f6f6);
 }
 
 * {
@@ -29,5 +30,5 @@ body {
 
 a {
 	text-decoration: underline;
-	color: var(--color-blue);
+	color: var(--color-pink);
 }

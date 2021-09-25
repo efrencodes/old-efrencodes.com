@@ -8,7 +8,6 @@ const Footer = (props) => {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.socialmedia}>
-				<Logotipo />
 				<div className="">
 					{socialMedia.map((social) => (
 						<a

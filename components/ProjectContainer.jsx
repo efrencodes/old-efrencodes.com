@@ -6,7 +6,7 @@ const ProjectContainer = (props) => {
 	return (
 		<section className={styles.projectContainer}>
 			<h3 className={styles.projectTitle}>
-				Some great projects I worked on
+				Some of the recent projects. BIG and small.
 			</h3>
 			<ul className={styles.projectList}>
 				{projects.map((project) => (

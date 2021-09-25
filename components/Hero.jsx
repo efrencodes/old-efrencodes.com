@@ -6,18 +6,11 @@ import Logotipo from './Logotipo'
 const Hero = () => {
 	return (
 		<main className={styles.main}>
-			<Image
-				src="https://res.cloudinary.com/efrenmartinez/image/upload/v1608834240/efrenmartinez.dev/favicon_b9cqkx.png"
-				alt="Foto"
-				width={70}
-				height={70}
-			/>
-			<Logotipo />
-			<h1 className={styles.subtitle}>
-				I´m Front End Engineer from Queretaro, Mexico 🇲🇽 . I code, write
-				and build stuff on internet.
+			<h1 className={styles.title}>
+				I'm Efren Martinez, a Front End Engineer from Queretaro, Mexico
+				🇲🇽 . I code, write and build stuff on internet.
 			</h1>
-			<h2 className={styles.paragraph}>
+			<h2 className={styles.subtitle}>
 				I work at{' '}
 				<a
 					href="https://www.occ.com.mx/"
@@ -28,8 +21,8 @@ const Hero = () => {
 				</a>{' '}
 				as FrontEnd developer ReactJS. I'm focused on building products
 				with JavaScript, specifically{' '}
-				<span className={styles.paragraphVue}>VueJS</span> and{' '}
-				<span className={styles.paragraphReact}>ReactJS</span>.
+				<span className={styles.vue}>VueJS</span> and{' '}
+				<span className={styles.react}>ReactJS</span>.
 			</h2>
 			<p className={styles.paragraph}>
 				You can find me on{'   '}

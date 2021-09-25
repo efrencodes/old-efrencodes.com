@@ -1,27 +1,11 @@
 .projectContainer {
-	background: #673ab7; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to right,
-		#512da8,
-		#673ab7
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#512da8,
-		#673ab7
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: var(--color-white);
-	border-radius: 4px;
 	min-height: 500px;
 	height: auto;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding: 5rem 1rem;
 }
 
 .projectTitle {
-	font-size: 24px;
+	font-size: 23px;
 	line-height: 24px;
 	font-weight: 500;
 }
@@ -29,15 +13,11 @@
 .projectList {
 	list-style: outside none none;
 	padding-left: 0px;
-	color: var(--colors-white);
 }
 
 @media screen and (max-width: 1000px) {
 	.projectContainer {
-		padding-left: 1rem;
-		padding-right: 1rem;
-		padding-top: 3rem;
-		padding-bottom: 3rem;
+		padding: 3rem 1rem;
 		border-radius: 0px;
 	}
 }

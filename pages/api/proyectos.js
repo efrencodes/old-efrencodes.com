@@ -10,14 +10,14 @@ const proyecto = [
 		// description:
 		// 	'Ecommerce Ordiexpres is a project for Canada client. Website is available in English and French.',
 		tecnologies: [
-			'#VueJS',
-			'#QuasarFramework',
-			'#HTML/CSS',
-			'#JavaScript',
-			'#i18n',
-			'#GoogleAnalytics',
-			'#SEO',
-			'#APIREST'
+			'• VueJS',
+			'• QuasarFramework',
+			'• HTML/CSS',
+			'• JavaScript',
+			'• i18n',
+			'• GoogleAnalytics',
+			'• SEO',
+			'• API rest'
 		]
 	},
 	{
@@ -29,12 +29,12 @@ const proyecto = [
 			alt: 'Project - Suzuki México Autos'
 		},
 		tecnologies: [
-			'#VueJS',
-			'#QuasarFramework',
-			'#HTML/CSS',
-			'#JavaScript',
-			'#GoogleMaps',
-			'#APIREST'
+			'• VueJS',
+			'• QuasarFramework',
+			'• HTML/CSS',
+			'• JavaScript',
+			'• GoogleMaps',
+			'• API rest'
 		]
 	},
 	{
@@ -48,12 +48,12 @@ const proyecto = [
 		// description:
 		// 	'Project completed in Marciano Studio. The goal was to rebuild the site from scratch to have a maintainable code as well as improve performance.',
 		tecnologies: [
-			'#VueJS',
-			'#QuasarFramework',
-			'#HTML/CSS',
-			'#APIREST',
-			'#JavaScript',
-			'#OpenPay'
+			'• VueJS',
+			'• QuasarFramework',
+			'• HTML/CSS',
+			'• API rest',
+			'• JavaScript',
+			'• OpenPay'
 		]
 	}
 ]
