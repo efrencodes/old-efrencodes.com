@@ -9,15 +9,15 @@ const ProjectContainer = (props) => {
 				Some of the recent projects. BIG and small.
 			</h3>
 			<ul className={styles.projectList}>
-				{projects.map((project) => (
-					<li key={project.name}>
+				{projects.map(({ name, img, tecnologies, reverse, url }) => (
+					<li key={name}>
 						<Card
-							name={project.name}
-							imgSrc={project.img.src}
-							imgAlt={project.img.alt}
-							tecnologies={project.tecnologies}
-							reverse={project.reverse}
-							url={project.url}
+							name={name}
+							imgSrc={img.src}
+							imgAlt={img.alt}
+							tecnologies={tecnologies}
+							reverse={reverse}
+							url={url}
 						/>
 					</li>
 				))}
