@@ -27,7 +27,7 @@ export default function Home({ projects, socialMedia }) {
 		<div className={styles.container}>
 			<MetaTags />
 
-			<Hero />
+			<Hero socialMedia={socialMedia} />
 
 			<ProjectContainer projects={projects} />
 

@@ -1,5 +1,8 @@
 .footer {
 	padding: 4rem 1rem;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: rgba(91, 110, 128, 0.11);
 }
 
 .socialmedia {

@@ -3,7 +3,7 @@ import Head from 'next/head'
 const MetaTags = () => {
 	return (
 		<Head>
-			<title>Efrén Martínez | FrontEnd Engineer VueJS/ReactJS</title>
+			<title>Efrén Martínez | FrontEnd Engineer</title>
 			<link rel="canonical" href="https://efrenmartinez.dev/" />
 			<meta
 				name="description"
@@ -19,7 +19,7 @@ const MetaTags = () => {
 			<meta property="og:title" content="website" />
 			<meta
 				property="og:type"
-				content="Efrén Martínez | Front-End Engineer VueJS/ReactJS"
+				content="Efrén Martínez | Front-End Engineer"
 			/>
 			<meta
 				property="og:description"
@@ -34,7 +34,7 @@ const MetaTags = () => {
 			<meta property="twitter:url" content="https://efrenmartinez.dev/" />
 			<meta
 				property="twitter:title"
-				content="Efrén Martínez | Front-End Engineer VueJS/ReactJS"
+				content="Efrén Martínez | Front-End Engineer"
 			/>
 			<meta
 				property="twitter:description"

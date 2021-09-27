@@ -5,9 +5,7 @@ const ProjectContainer = (props) => {
 	const { projects } = props
 	return (
 		<section className={styles.projectContainer}>
-			<h3 className={styles.projectTitle}>
-				Some of the recent projects. BIG and small.
-			</h3>
+			<h3 className={styles.projectTitle}>RECENT work. BIG and small.</h3>
 			<ul className={styles.projectList}>
 				{projects.map(({ name, img, tecnologies, reverse, url }) => (
 					<li key={name}>

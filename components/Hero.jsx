@@ -2,56 +2,50 @@ import React from 'react'
 import styles from '../styles/Hero.module.css'
 import Image from 'next/image'
 
-const Hero = () => {
+const Hero = (props) => {
+	const { socialMedia } = props
 	return (
 		<main className={styles.main}>
 			<h1 className={styles.title}>
-				I'm Efren Martinez, a Front End Engineer from Queretaro, Mexico
-				🇲🇽 . I code, write and build stuff on internet.
-			</h1>
-			<h2 className={styles.subtitle}>
-				I work at{' '}
+				I'm Efren Martinez,
+				<br /> a Front end Engineer
+				<br />
+				from Queretaro, Mexico 🇲🇽 .
+				<br /> I work at{' '}
 				<a
 					href="https://www.occ.com.mx/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
 					OCC Mundial
-				</a>{' '}
-				as FrontEnd developer ReactJS. I'm focused on building products
-				with JavaScript, specifically{' '}
+				</a>
+				.
+			</h1>
+			<h2 className={styles.subtitle}>
+				I code, write and build products on internet, specifically{' '}
 				<span className={styles.vue}>VueJS</span> and{' '}
 				<span className={styles.react}>ReactJS</span>.
 			</h2>
-			<p className={styles.paragraph}>
-				You can find me on{'   '}
-				<a
-					href="https://www.linkedin.com/in/efren-martinez-rodriguez/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<Image
-						src="https://res.cloudinary.com/efrenmartinez/image/upload/v1621845051/efrenmartinez.dev/icons/logo-linkedin_isre0b.svg"
-						alt="Logo LinkedIn - efren-martinez-rodriguez"
-						width={25}
-						height={25}
-					/>
-				</a>
-				{'   '}or{'   '}
-				<a
-					href="https://github.com/efrencodes/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<Image
-						src="https://res.cloudinary.com/efrenmartinez/image/upload/v1621845051/efrenmartinez.dev/icons/logo-github_g7cma4.svg"
-						alt="Logo Github - efrencodes"
-						width={25}
-						height={25}
-					/>
-				</a>
-				.
-			</p>
+			<p className={styles.paragraph}>You can find me on:</p>
+			<div className={styles.socialmedia}>
+				<div className="">
+					{socialMedia.map(({ name, href, icon, alt }) => (
+						<a
+							key={name}
+							href={href}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Image
+								src={icon}
+								alt={alt}
+								width={28}
+								height={28}
+							/>
+						</a>
+					))}
+				</div>
+			</div>
 		</main>
 	)
 }

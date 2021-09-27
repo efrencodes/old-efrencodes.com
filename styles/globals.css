@@ -16,7 +16,8 @@ body {
 	margin: 0;
 	font-family: var(--font-sans);
 	color: var(--color-black);
-	background-image: linear-gradient(180deg, #fff, #f6f6f6);
+	background-image: linear-gradient(180deg, #fff, #f6f6f6),
+		linear-gradient(0deg, #fff, #f6f6f6);
 }
 
 * {
