@@ -1,6 +1,23 @@
 const proyecto = [
 	{
-		name: 'Ecommerce Ordiexpress',
+		name: 'Landing Consultorio Dental Dr Carlos Servin.',
+		url: 'https://drcarlosservin.com/',
+		reverse: false,
+		img: {
+			src: 'https://res.cloudinary.com/efrencodes/image/upload/v1632798913/efrenmartinez.dev/projects/project_dr-carlos-servin_givqny.png',
+			alt: 'Project - Dr Carlos Servin'
+		},
+		tecnologies: [
+			'• ReactJS',
+			'• NextJS',
+			'• CSS Modules',
+			'• API Routes',
+			'• SEO',
+			'• Calendly'
+		]
+	},
+	{
+		name: 'Ecommerce Ordiexpress.',
 		url: 'https://www.ordiexpress.com/',
 		reverse: true,
 		img: {
@@ -21,7 +38,7 @@ const proyecto = [
 		]
 	},
 	{
-		name: 'Suzuki México Autos',
+		name: 'Suzuki México Autos.',
 		url: 'https://www.suzuki.com.mx/autos',
 		reverse: false,
 		img: {
@@ -38,7 +55,7 @@ const proyecto = [
 		]
 	},
 	{
-		name: 'Ecommerce Bticino México',
+		name: 'Ecommerce Bticino México.',
 		url: 'https://store.bticino.com.mx/',
 		reverse: true,
 		img: {
