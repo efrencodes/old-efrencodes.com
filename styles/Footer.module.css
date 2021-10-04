@@ -12,3 +12,9 @@
 .socialmedia a:first-child {
 	margin-right: 20px;
 }
+
+.Title {
+	font-size: 17px;
+	color: var(--color-gray);
+	font-weight: 400;
+}

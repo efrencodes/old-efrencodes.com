@@ -8,6 +8,7 @@ const Footer = (props) => {
 		<footer className={styles.footer}>
 			<div className={styles.socialmedia}>
 				<div className="">
+					<h5 className={styles.Title}>Let's Connect</h5>
 					{socialMedia.map(({ name, href, icon, alt }) => (
 						<a
 							key={name}
