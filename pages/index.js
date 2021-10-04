@@ -6,7 +6,7 @@ import MetaTags from '../components/MetaTags'
 // import { getAllFilesMetadata } from '../lib/mdx'
 
 export const getStaticProps = async () => {
-	const URL = 'http://localhost:3000/'
+	const URL = 'https://www.efrenmartinez.dev/'
 	const projects = await fetch(`${URL}api/proyectos`, {
 		method: 'GET'
 	}).then((res) => res.json())
