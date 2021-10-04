@@ -39,8 +39,8 @@ const Hero = (props) => {
 							<Image
 								src={icon}
 								alt={alt}
-								width={28}
-								height={28}
+								width={30}
+								height={30}
 							/>
 						</a>
 					))}

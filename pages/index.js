@@ -6,13 +6,15 @@ import MetaTags from '../components/MetaTags'
 // import { getAllFilesMetadata } from '../lib/mdx'
 
 export const getStaticProps = async () => {
-	const URL = 'https://www.efrenmartinez.dev/'
+	const URL = 'http://localhost:3000/'
 	const projects = await fetch(`${URL}api/proyectos`, {
 		method: 'GET'
 	}).then((res) => res.json())
 	const socialMedia = await fetch(`${URL}api/socialMedia`, {
 		method: 'GET'
 	}).then((res) => res.json())
+
+	console.log(socialMedia)
 
 	return {
 		props: {
