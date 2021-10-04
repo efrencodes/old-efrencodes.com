@@ -1,4 +1,3 @@
-import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import ProjectContainer from '../components/ProjectContainer'
@@ -14,8 +13,6 @@ export const getStaticProps = async () => {
 		method: 'GET'
 	}).then((res) => res.json())
 
-	console.log(socialMedia)
-
 	return {
 		props: {
 			projects,
@@ -26,7 +23,7 @@ export const getStaticProps = async () => {
 
 export default function Home({ projects, socialMedia }) {
 	return (
-		<div className={styles.container}>
+		<div className="container">
 			<MetaTags />
 
 			<Hero socialMedia={socialMedia} />
