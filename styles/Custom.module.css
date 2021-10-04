@@ -1,0 +1,23 @@
+.Main {
+	padding: 8rem 0 4rem 0;
+	text-align: center;
+}
+
+.Title {
+	color: var(--color-black);
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.Subtitle {
+	color: var(--color-pink);
+	font-size: 100px;
+	font-weight: 300;
+	line-height: 0px;
+}
+
+.Anchor {
+	font-size: 20px;
+	text-decoration: none;
+	color: var(--color-blue);
+}
