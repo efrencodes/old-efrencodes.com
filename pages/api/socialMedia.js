@@ -1,10 +1,10 @@
 const media = [
-	// {
-	// 	name: 'linkedln',
-	// 	icon: '/linkedin-icon.svg',
-	// 	href: 'https://www.linkedin.com/in/efren-martinez-rodriguez/',
-	// 	alt: 'Logo LinkedIn - efren-martinez-rodriguez'
-	// },
+	{
+		name: 'linkedln',
+		icon: '/linkedin-icon.svg',
+		href: 'https://www.linkedin.com/in/efren-martinez-rodriguez/',
+		alt: 'Logo LinkedIn - efren-martinez-rodriguez'
+	},
 	{
 		name: 'github',
 		icon: '/github-icon.svg',
