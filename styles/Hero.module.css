@@ -28,16 +28,14 @@
 	color: var(--color-gray);
 }
 
-.socialmedia a:first-child {
-	margin-right: 15px;
-}
-
 .vue {
 	color: var(--color-vue);
+	font-weight: 500;
 }
 
 .react {
 	color: var(--color-react);
+	font-weight: 500;
 }
 
 @media screen and (max-width: 1000px) {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import MediaSocial from './MediaSocial'
 import styles from '../styles/Footer.module.css'
 
 const Footer = (props) => {
@@ -9,21 +9,7 @@ const Footer = (props) => {
 			<div className={styles.socialmedia}>
 				<div className="">
 					<h5 className={styles.Title}>Let's Connect</h5>
-					{socialMedia.map(({ name, href, icon, alt }) => (
-						<a
-							key={name}
-							href={href}
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<Image
-								src={icon}
-								alt={alt}
-								width={25}
-								height={25}
-							/>
-						</a>
-					))}
+					<MediaSocial socialMedia={socialMedia} size={30} />
 				</div>
 			</div>
 		</footer>
