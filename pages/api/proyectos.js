@@ -4,8 +4,8 @@ const proyecto = [
 		url: 'https://drcarlosservin.com/',
 		reverse: false,
 		img: {
-			src: 'https://res.cloudinary.com/efrencodes/image/upload/v1632798913/efrenmartinez.dev/projects/project_dr-carlos-servin_givqny.png',
-			alt: 'Project - Dr Carlos Servin'
+			src: 'https://res.cloudinary.com/efrencodes/image/upload/v1633642794/efrenmartinez.dev/projects/project_dr_carlos_servin.png',
+			alt: 'Project - Dr Carlos Servin Tovar'
 		},
 		tecnologies: [
 			'• ReactJS',
