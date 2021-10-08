@@ -22,7 +22,7 @@ const Custom404 = ({ socialMedia }) => {
 				<h2 className={styles.Subtitle}>404</h2>
 				<h1 className={styles.Title}>Lost in space?</h1>
 				<Link href="/">
-					<a className={styles.Anchor}>Ir al Home</a>
+					<a className={styles.Anchor}>go to home</a>
 				</Link>
 			</main>
 			<Footer socialMedia={socialMedia} />

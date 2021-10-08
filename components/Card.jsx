@@ -20,8 +20,13 @@ const Card = (props) => {
 				</p>
 				<h4 className={styles.titleProyect}>{name}</h4>
 				<p className={styles.paragraphProyect}>
-					<a href={url} target="_blank" rel="noopener noreferrer">
-						View project
+					<a
+						className="Button"
+						href={url}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Visit project
 					</a>
 				</p>
 			</div>

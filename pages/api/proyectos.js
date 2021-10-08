@@ -1,6 +1,6 @@
 const proyecto = [
 	{
-		name: 'Landing Consultorio Dental Dr Carlos Servin.',
+		name: 'Dental Office - Dr Carlos Servin Tovar.',
 		url: 'https://drcarlosservin.com/',
 		reverse: false,
 		img: {
@@ -8,12 +8,12 @@ const proyecto = [
 			alt: 'Project - Dr Carlos Servin Tovar'
 		},
 		tecnologies: [
-			'• ReactJS',
 			'• NextJS',
+			'• ReactJS',
+			'• API Calendly',
 			'• CSS Modules',
 			'• API Routes',
-			'• SEO',
-			'• Calendly'
+			'• SEO'
 		]
 	},
 	{
@@ -21,20 +21,20 @@ const proyecto = [
 		url: 'https://www.ordiexpress.com/',
 		reverse: true,
 		img: {
-			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1630000496/efrenmartinez.dev/projects/project_ordiexpress.png',
+			src: 'https://res.cloudinary.com/efrencodes/image/upload/v1630000496/efrenmartinez.dev/projects/project_ordiexpress.png',
 			alt: 'Project - Ecommerce Ordiexpress'
 		},
 		// description:
 		// 	'Ecommerce Ordiexpres is a project for Canada client. Website is available in English and French.',
 		tecnologies: [
+			'• Quasar Framework',
 			'• VueJS',
-			'• QuasarFramework',
-			'• HTML/CSS',
+			'• HTML/SASS',
 			'• JavaScript',
+			'• API Rest',
 			'• i18n',
-			'• GoogleAnalytics',
-			'• SEO',
-			'• API rest'
+			'• Google Analytics',
+			'• SEO'
 		]
 	},
 	{
@@ -42,35 +42,35 @@ const proyecto = [
 		url: 'https://www.suzuki.com.mx/autos',
 		reverse: false,
 		img: {
-			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1630000497/efrenmartinez.dev/projects/project_suzuki.png',
+			src: 'https://res.cloudinary.com/efrencodes/image/upload/v1630000497/efrenmartinez.dev/projects/project_suzuki.png',
 			alt: 'Project - Suzuki México Autos'
 		},
 		tecnologies: [
 			'• VueJS',
-			'• QuasarFramework',
-			'• HTML/CSS',
+			'• Quasar Framework',
+			'• HTML/SASS',
 			'• JavaScript',
-			'• GoogleMaps',
-			'• API rest'
+			'• Google Maps',
+			'• API Rest'
 		]
 	},
 	{
-		name: 'Ecommerce Bticino México.',
+		name: 'Bticino México.',
 		url: 'https://store.bticino.com.mx/',
 		reverse: true,
 		img: {
-			src: 'https://res.cloudinary.com/efrenmartinez/image/upload/v1630000496/efrenmartinez.dev/projects/project_bticino_store.png',
+			src: 'https://res.cloudinary.com/efrencodes/image/upload/v1630000496/efrenmartinez.dev/projects/project_bticino_store.png',
 			alt: 'Project - Store Bticino México'
 		},
 		// description:
 		// 	'Project completed in Marciano Studio. The goal was to rebuild the site from scratch to have a maintainable code as well as improve performance.',
 		tecnologies: [
 			'• VueJS',
-			'• QuasarFramework',
-			'• HTML/CSS',
-			'• API rest',
+			'• Quasar Framework',
+			'• HTML/SASS',
+			'• API Rest',
 			'• JavaScript',
-			'• OpenPay'
+			'• Open Pay'
 		]
 	}
 ]

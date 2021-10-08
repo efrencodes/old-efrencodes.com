@@ -6,8 +6,10 @@
 	--color-blue: rgba(3, 136, 252, 1);
 	--color-yellow: rgba(250, 217, 0, 0.99);
 	--color-pink: rgb(222, 15, 102);
-	--color-vue: #11998e;
-	--color-react: #2f80ed;
+	--color-vue: #41b883;
+	--color-react: #00d8ff;
+	--font-regular: 400;
+	--font-medium: 500;
 }
 
 html,
@@ -41,6 +43,26 @@ body {
 	.container {
 		width: 100%;
 	}
+}
+
+.Button {
+	width: 140px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 6px 14px;
+	border-radius: 6px;
+	color: #fff;
+	background: #673ab7;
+	background: -webkit-linear-gradient(to right, #673ab7, #512da8);
+	background: linear-gradient(to right, #673ab7, #512da8);
+	border: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	text-decoration: none;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 a {
