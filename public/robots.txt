@@ -4,4 +4,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.efrenmartinez.dev/sitemap.xml
+Sitemap: https://efrencodes.com/sitemap.xml

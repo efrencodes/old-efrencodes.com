@@ -4,7 +4,7 @@ const MetaTags = () => {
 	return (
 		<Head>
 			<title>Efrén Martínez | FrontEnd Engineer</title>
-			<link rel="canonical" href="https://efrenmartinez.dev/" />
+			<link rel="canonical" href="https://efrencodes.com/" />
 			<link rel="preconnect" href="https://fonts.googleapis.com" />
 			<link
 				rel="preconnect"
@@ -25,7 +25,7 @@ const MetaTags = () => {
 				content="querétaro,technology,software,web,development,fullstack,software engineer,developer,jamstack,vuejs,reactjs,méxico"
 			/>
 			<meta property="og:type" content="website" />
-			<meta property="og:url" content="https://efrenmartinez.dev/" />
+			<meta property="og:url" content="https://efrencodes.com" />
 			<meta property="og:title" content="website" />
 			<meta
 				property="og:type"
@@ -41,7 +41,7 @@ const MetaTags = () => {
 			/>
 			// Twitter Card
 			<meta property="twitter:card" content="summary_large_image" />
-			<meta property="twitter:url" content="https://efrenmartinez.dev/" />
+			<meta property="twitter:url" content="https://efrencodes.com" />
 			<meta
 				property="twitter:title"
 				content="Efrén Martínez | Front-End Engineer"

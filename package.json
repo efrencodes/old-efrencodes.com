@@ -2,7 +2,7 @@
 	"name": "efrenmartinez-dev",
 	"version": "0.1.0",
 	"private": true,
-	"author": "efrencodes <developer.emartinez@gmail.com> (https://efrenmartinez.dev/)",
+	"author": "efrencodes <developer.emartinez@gmail.com> (https://efrencodes.com)",
 	"description": "Portfolio built with Next.js, MDX, CSS modules and API Routes ",
 	"scripts": {
 		"dev": "next dev",

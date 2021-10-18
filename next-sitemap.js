@@ -1,5 +1,5 @@
 module.exports = {
-	siteUrl: 'https://www.efrenmartinez.dev/',
+	siteUrl: 'https://efrencodes.com/',
 	generateRobotsTxt: false,
 	changefreq: 'daily',
 	priority: 0.7,
