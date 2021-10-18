@@ -1,6 +1,6 @@
 const proyecto = [
 	{
-		name: 'Dental Office - Dr Carlos Servin Tovar.',
+		name: 'Consultorio Dental - Dr. Carlos Servin Tovar.',
 		url: 'https://drcarlosservin.com/',
 		reverse: false,
 		img: {

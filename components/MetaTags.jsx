@@ -5,9 +5,19 @@ const MetaTags = () => {
 		<Head>
 			<title>Efrén Martínez | FrontEnd Engineer</title>
 			<link rel="canonical" href="https://efrenmartinez.dev/" />
+			<link rel="preconnect" href="https://fonts.googleapis.com" />
+			<link
+				rel="preconnect"
+				href="https://fonts.gstatic.com"
+				crossOrigin="true"
+			/>
+			<link
+				href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+				rel="stylesheet"
+			/>
 			<meta
 				name="description"
-				content="I'm Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="Soy Front End Engineer de la cuidad de Querétaro, México. Construyó productos y plataformas web. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta charSet="UTF-8" />
 			<meta
@@ -23,7 +33,7 @@ const MetaTags = () => {
 			/>
 			<meta
 				property="og:description"
-				content="I'm Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="Soy Front End Engineer de la cuidad de Querétaro, México. Construyó productos y plataformas web. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta
 				property="og:image"
@@ -38,7 +48,7 @@ const MetaTags = () => {
 			/>
 			<meta
 				property="twitter:description"
-				content="I'm Front End Engineer from Queretaro, Mexico. I code, write and build stuff on internet. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="Soy Front End Engineer de la cuidad de Querétaro, México. Construyó productos y plataformas web. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta
 				property="twitter:image"
@@ -49,16 +59,6 @@ const MetaTags = () => {
 			<meta
 				property="twitter:image:alt"
 				content="Efrén Martínez Rodríguez - Front-end engineer"
-			/>
-			<link rel="preconnect" href="https://fonts.googleapis.com" />
-			<link
-				rel="preconnect"
-				href="https://fonts.gstatic.com"
-				crossOrigin="true"
-			/>
-			<link
-				href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
-				rel="stylesheet"
 			/>
 		</Head>
 	)

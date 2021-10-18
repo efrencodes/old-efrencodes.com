@@ -26,7 +26,7 @@ const Card = (props) => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Visit project
+						Ver proyecto
 					</a>
 				</p>
 			</div>
