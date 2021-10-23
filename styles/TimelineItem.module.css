@@ -1,0 +1,23 @@
+.containerItem {
+	margin-bottom: 25px;
+}
+.containerTop {
+	align-items: center;
+	display: flex;
+}
+.containerCircle {
+	background-color: rgb(170, 170, 170);
+	height: 40px;
+	width: 40px;
+}
+.containerTitle {
+	flex: 1;
+	margin-left: 20px;
+}
+.containerTitle span {
+	color: var(--color-pink);
+}
+.containerTitle p {
+	margin: 0;
+	line-height: 35px;
+}

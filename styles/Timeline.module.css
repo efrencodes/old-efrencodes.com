@@ -1,0 +1,15 @@
+.timeline {
+	position: relative;
+}
+.containerLine {
+	border-right: 2px solid #aaa;
+	left: 16px;
+	position: absolute;
+	top: 0px;
+	height: 100%;
+}
+.containerItems {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
