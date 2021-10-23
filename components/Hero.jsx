@@ -10,7 +10,7 @@ const Hero = (props) => {
 				Soy Efrén Martínez,
 				<br /> Front End Engineer
 				<br />
-				de la cuidad de Querétaro, México 🇲🇽 .
+				de la ciudad de Querétaro, México 🇲🇽 .
 				<br />
 				Actualmente trabajó en{' '}
 				<a
@@ -27,7 +27,7 @@ const Hero = (props) => {
 				<span className={styles.vue}>VueJS</span> y{' '}
 				<span className={styles.react}>ReactJS</span>.
 			</h2>
-			<p className={styles.paragraph}>Puedes encontrarme en:</p>
+			<p className={styles.paragraph}>Puedes encontrarme en</p>
 			<MediaSocial socialMedia={socialMedia} size={30} />
 		</main>
 	)

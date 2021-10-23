@@ -15,6 +15,7 @@
 
 .Title {
 	font-size: 17px;
+	line-height: 5px;
 	color: var(--color-gray);
 	font-weight: var(--font-regular);
 }
