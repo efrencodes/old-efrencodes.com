@@ -1,9 +1,10 @@
 {
-	"name": "efrenmartinez-dev",
+	"name": "efrencodes.com",
 	"version": "0.1.0",
 	"private": true,
-	"author": "efrencodes <developer.emartinez@gmail.com> (https://efrencodes.com)",
+	"author": "efrencodes <efrencodes@gmail.com> (https://efrencodes.com)",
 	"description": "Portfolio built with Next.js, MDX, CSS modules and API Routes ",
+	"main": "pages/index.js",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
@@ -27,5 +28,6 @@
 		"eslint-config-prettier": "^8.3.0",
 		"next-sitemap": "^1.6.173",
 		"prettier": "^2.4.1"
-	}
+	},
+	"license": "MIT"
 }
