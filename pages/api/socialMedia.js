@@ -2,8 +2,8 @@ const media = [
 	{
 		name: 'linkedln',
 		icon: '/linkedin-icon.svg',
-		href: 'https://www.linkedin.com/in/efren-martinez-rodriguez/',
-		alt: 'Logo LinkedIn - efren-martinez-rodriguez'
+		href: 'https://www.linkedin.com/in/efrencodes/',
+		alt: 'Logo LinkedIn - efrencodes'
 	},
 	{
 		name: 'github',
