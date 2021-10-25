@@ -18,6 +18,7 @@ Portfolio web built with Next.js, ReactJS, MDX, CSS modules and API Routes.
 -   Configuration with Eslint, Prettier and EditorConfig.
 -   Commit messages using [gitmoji](https://gitmoji.dev/)
 -   Yarn for start the development server.
+-   Deploy in [Vercel](https://vercel.com/).
 
 ### 🕹 Installation
 
