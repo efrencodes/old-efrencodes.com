@@ -1,6 +1,6 @@
 const proyecto = [
 	{
-		name: 'Consultorio Dental - Dr. Carlos Servin Tovar.',
+		name: 'Dental office - Dr. Carlos Servin Tovar.',
 		url: 'https://drcarlosservin.com/',
 		reverse: false,
 		img: {
@@ -38,7 +38,7 @@ const proyecto = [
 		]
 	},
 	{
-		name: 'Suzuki México Autos.',
+		name: 'Suzuki Mexico Autos.',
 		url: 'https://www.suzuki.com.mx/autos',
 		reverse: false,
 		img: {
@@ -55,7 +55,7 @@ const proyecto = [
 		]
 	},
 	{
-		name: 'Bticino México.',
+		name: 'Ecommerce Bticino Mexico.',
 		url: 'https://store.bticino.com.mx/',
 		reverse: true,
 		img: {

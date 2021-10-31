@@ -6,7 +6,7 @@ const ProjectContainer = (props) => {
 	return (
 		<section className={styles.projectContainer}>
 			<h3 className={styles.projectTitle}>
-				Proyectos recientes. <span>GRANDES y pequeños.</span>
+				Projects recent. <span>BIG and small.</span>
 			</h3>
 			<ul className={styles.projectList}>
 				{projects.map(({ name, img, tecnologies, reverse, url }) => (

@@ -1,5 +1,5 @@
 .main {
-	padding: 7rem 1rem;
+	padding: 2rem 1rem 7rem 1rem;
 }
 
 .title {
@@ -30,12 +30,12 @@
 
 .vue {
 	color: var(--color-vue);
-	font-weight: var(--font-medium);
+	font-weight: var(--font-regular);
 }
 
 .react {
 	color: var(--color-react);
-	font-weight: var(--font-medium);
+	font-weight: var(--font-regular);
 }
 
 @media screen and (max-width: 1000px) {

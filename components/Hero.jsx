@@ -7,12 +7,11 @@ const Hero = (props) => {
 	return (
 		<main className={styles.main}>
 			<h1 className={styles.title}>
-				Soy Efrén Martínez,
-				<br /> Front End Engineer
+				Hey! I´m Efren Martinez,
+				<br />a Front End Engineer
 				<br />
-				de la ciudad de Querétaro, México 🇲🇽 .
-				<br />
-				Actualmente trabajó en{' '}
+				from Queretaro city, Mexico 🇲🇽 .
+				<br />I work on{' '}
 				<a
 					href="https://www.occ.com.mx/"
 					target="_blank"
@@ -23,11 +22,11 @@ const Hero = (props) => {
 				.
 			</h1>
 			<h2 className={styles.subtitle}>
-				Construyó productos y plataformas web específicamente con{' '}
-				<span className={styles.vue}>VueJS</span> y{' '}
+				I code and build stuff specifically{' '}
+				<span className={styles.vue}>VueJS</span> and{' '}
 				<span className={styles.react}>ReactJS</span>.
 			</h2>
-			<p className={styles.paragraph}>Puedes encontrarme en</p>
+			<p className={styles.paragraph}>You can find me on</p>
 			<MediaSocial socialMedia={socialMedia} size={30} />
 		</main>
 	)
