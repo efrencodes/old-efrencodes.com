@@ -3,8 +3,8 @@ import Head from 'next/head'
 const MetaTags = () => {
 	return (
 		<Head>
-			<title>Efrén Martínez | FrontEnd Engineer</title>
-			<link rel="canonical" href="https://efrencodes.com/" />
+			<title>Efren Martinez | Frontend Engineer</title>
+			<link rel="canonical" href="https://www.efrencodes.com/" />
 			<link rel="preconnect" href="https://fonts.googleapis.com" />
 			<link
 				rel="preconnect"
@@ -17,7 +17,7 @@ const MetaTags = () => {
 			/>
 			<meta
 				name="description"
-				content="Soy Front End Engineer de la cuidad de Querétaro, México. Construyó productos y plataformas web. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="Hey! I´m Efren Martinez a Front End Engineer. I build things for the web. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta charSet="UTF-8" />
 			<meta
@@ -25,15 +25,15 @@ const MetaTags = () => {
 				content="querétaro,technology,software,web,development,fullstack,software engineer,developer,jamstack,vuejs,reactjs,méxico"
 			/>
 			<meta property="og:type" content="website" />
-			<meta property="og:url" content="https://efrencodes.com" />
+			<meta property="og:url" content="https://www.efrencodes.com" />
 			<meta property="og:title" content="website" />
 			<meta
 				property="og:type"
-				content="Efrén Martínez | Front-End Engineer"
+				content="Efren Martinez | Frontend Engineer"
 			/>
 			<meta
 				property="og:description"
-				content="Soy Front End Engineer de la cuidad de Querétaro, México. Construyó productos y plataformas web. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="Hey! I´m Efren Martinez a Front End Engineer. I build things for the web. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta
 				property="og:image"
@@ -41,14 +41,14 @@ const MetaTags = () => {
 			/>
 			// Twitter Card
 			<meta property="twitter:card" content="summary_large_image" />
-			<meta property="twitter:url" content="https://efrencodes.com" />
+			<meta property="twitter:url" content="https://www.efrencodes.com" />
 			<meta
 				property="twitter:title"
-				content="Efrén Martínez | Front-End Engineer"
+				content="Efren Martinez | Frontend Engineer"
 			/>
 			<meta
 				property="twitter:description"
-				content="Soy Front End Engineer de la cuidad de Querétaro, México. Construyó productos y plataformas web. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="Hey! I´m Efren Martinez a Front End Engineer. I build things for the web. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta
 				property="twitter:image"
@@ -58,7 +58,7 @@ const MetaTags = () => {
 			<meta property="twitter:site" content="@efrencodes" />
 			<meta
 				property="twitter:image:alt"
-				content="Efrén Martínez Rodríguez - Front-end engineer"
+				content="Efren Martinez - Frontend engineer"
 			/>
 		</Head>
 	)

@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 
 export const getStaticProps = async () => {
-	const URL = 'https://efrencodes.com/'
+	const URL = 'https://www.efrencodes.com/'
 	const experiencia = await fetch(`${URL}api/experiencia`, {
 		method: 'GET'
 	}).then((res) => res.json())

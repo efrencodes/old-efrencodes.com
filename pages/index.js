@@ -6,7 +6,7 @@ import Nav from '../components/Nav'
 // import { getAllFilesMetadata } from '../lib/mdx'
 
 export const getStaticProps = async () => {
-	const URL = 'https://efrencodes.com/'
+	const URL = 'https://www.efrencodes.com/'
 	const projects = await fetch(`${URL}api/proyectos`, {
 		method: 'GET'
 	}).then((res) => res.json())

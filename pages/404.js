@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import styles from '../styles/Custom.module.css'
 
 export const getStaticProps = async () => {
-	const URL = 'https://efrencodes.com/'
+	const URL = 'https://www.efrencodes.com/'
 	const socialMedia = await fetch(`${URL}api/socialMedia`, {
 		method: 'GET'
 	}).then((res) => res.json())

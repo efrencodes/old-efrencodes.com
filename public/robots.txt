@@ -6,4 +6,4 @@ User-agent: *
 Allow: /
 Disallow: /about
 
-Sitemap: https://efrencodes.com/sitemap.xml
+Sitemap: https://www.efrencodes.com/sitemap.xml
