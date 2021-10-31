@@ -14,10 +14,12 @@
 	flex: 1;
 	margin-left: 20px;
 }
-.containerTitle span {
+.containerTitle a {
 	color: var(--color-pink);
+	text-decoration: none;
 }
 .containerTitle p {
 	margin: 0;
 	line-height: 35px;
+	color: var(--color-gray);
 }

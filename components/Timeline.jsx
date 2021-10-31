@@ -7,16 +7,19 @@ const Timeline = (props) => {
 		<div className={styles.timeline}>
 			<div class={styles.containerLine}></div>
 			<ul class={styles.containerItems}>
-				{experiencia.map(({ job, company, duration, img, alt }) => (
-					<TimelineItem
-						key={job}
-						job={job}
-						company={company}
-						duration={duration}
-						img={img}
-						alt={alt}
-					/>
-				))}
+				{experiencia.map(
+					({ job, company, duration, img, alt, url }) => (
+						<TimelineItem
+							key={job}
+							job={job}
+							company={company}
+							duration={duration}
+							img={img}
+							alt={alt}
+							url={url}
+						/>
+					)
+				)}
 			</ul>
 		</div>
 	)

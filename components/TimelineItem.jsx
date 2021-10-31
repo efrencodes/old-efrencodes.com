@@ -3,15 +3,18 @@ import Image from 'next/image'
 import styles from '../styles/TimelineItem.module.css'
 
 const TimelineItem = (props) => {
-	const { job, company, duration, img, alt } = props
+	const { job, company, duration, img, alt, url } = props
 	return (
 		<li className={styles.containerItem}>
 			<div className={styles.containerTop}>
 				<div className={styles.containerCircle}>
-					<Image src={img} alt={alt} width={40} height={40} />
+					<Image src={img} alt={alt} width={50} height={50} />
 				</div>
 				<div className={styles.containerTitle}>
-					{job} at <span>@{company}</span>
+					{job} at{' '}
+					<a href={url} target="_blank" rel="noopener noreferrer">
+						@{company}
+					</a>
 					<p>{duration}</p>
 				</div>
 			</div>

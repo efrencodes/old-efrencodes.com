@@ -1,25 +1,22 @@
 .main {
-	padding: 7rem 1rem;
+	padding: 8rem 1rem;
 }
 .title {
-	font-size: 25px;
+	font-size: 28px;
 	line-height: 35px;
 	font-weight: var(--font-medium);
 	margin-top: 5rem;
+	margin-bottom: 1.5rem;
 }
 .subtitle {
-	font-size: 20px;
+	font-size: 23px;
 	line-height: 34px;
 	font-weight: var(--font-regular);
 }
-.list {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-.item {
+.paragraph {
+	color: var(--color-gray);
 	font-size: 16px;
-	line-height: 25px;
+	line-height: 30px;
 	font-weight: var(--font-regular);
 }
 .separator {
@@ -28,11 +25,6 @@
 }
 @media screen and (max-width: 1000px) {
 	.main {
-		padding: 4rem 1rem;
-	}
-	.subtitle,
-	.title,
-	.paragraph {
-		width: 100%;
+		padding: 5rem 1rem;
 	}
 }

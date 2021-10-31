@@ -2,6 +2,7 @@ import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import ProjectContainer from '../components/ProjectContainer'
 import MetaTags from '../components/MetaTags'
+import Nav from '../components/Nav'
 // import { getAllFilesMetadata } from '../lib/mdx'
 
 export const getStaticProps = async () => {
@@ -25,6 +26,8 @@ export default function Home({ projects, socialMedia }) {
 	return (
 		<div className="container">
 			<MetaTags />
+
+			<Nav />
 
 			<Hero socialMedia={socialMedia} />
 

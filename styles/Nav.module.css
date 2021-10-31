@@ -1,0 +1,31 @@
+.nav {
+	width: 100%;
+}
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 1em;
+	display: flex;
+	height: 100px;
+	align-items: center;
+	justify-content: flex-end;
+}
+.nav ul li {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: var(--font-medium);
+}
+.nav ul li {
+	font-size: 16px;
+	line-height: 30px;
+}
+.nav ul li a {
+	color: var(--color-black);
+	text-decoration: none;
+}
+.nav ul li a:hover {
+	color: var(--color-pink);
+}
+.nav ul li a:first-child {
+	margin-right: 30px;
+}
