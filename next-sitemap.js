@@ -5,18 +5,17 @@ module.exports = {
 	priority: 0.7,
 	sitemapSize: 5000,
 	generateRobotsTxt: true,
-	exclude: ['/about'],
 	robotsTxtOptions: {
 		policies: [
 			{
 				userAgent: 'Googlebot',
 				allow: '/',
-				disallow: '/about'
+				allow: '/about'
 			},
 			{
 				userAgent: '*',
 				allow: '/',
-				disallow: '/about'
+				allow: '/about'
 			}
 		]
 	}
