@@ -25,7 +25,7 @@ export const getStaticProps = async () => {
 export default function Home({ projects, socialMedia }) {
 	return (
 		<div className="container">
-			<MetaTags />
+			<MetaTags title="Efren Martinez | Frontend Engineer" />
 
 			<Nav />
 

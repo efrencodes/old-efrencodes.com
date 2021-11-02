@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-const MetaTags = () => {
+const MetaTags = ({ title }) => {
 	return (
 		<Head>
-			<title>Efrén Martínez | FrontEnd Engineer</title>
+			<title>{title}</title>
 			<link rel="canonical" href="https://efrencodes.com/" />
 			<link rel="preconnect" href="https://fonts.googleapis.com" />
 			<link
@@ -17,7 +17,7 @@ const MetaTags = () => {
 			/>
 			<meta
 				name="description"
-				content="Soy Front End Engineer de la cuidad de Querétaro, México. Construyó productos y plataformas web. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="I´m Efren Martinez, a Frontend Engineer with experiencie in VueJS • Quasar • ReactJS • NextJS • JavaScript • CSS • NodeJS and much more. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta charSet="UTF-8" />
 			<meta
@@ -29,11 +29,11 @@ const MetaTags = () => {
 			<meta property="og:title" content="website" />
 			<meta
 				property="og:type"
-				content="Efrén Martínez | Front-End Engineer"
+				content="Efren Martinez | Frontend Engineer"
 			/>
 			<meta
 				property="og:description"
-				content="Soy Front End Engineer de la cuidad de Querétaro, México. Construyó productos y plataformas web. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="I´m Efren Martinez, a Frontend Engineer with experiencie in VueJS • Quasar • ReactJS • NextJS • JavaScript • CSS • NodeJS and much more. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta
 				property="og:image"
@@ -44,11 +44,11 @@ const MetaTags = () => {
 			<meta property="twitter:url" content="https://efrencodes.com" />
 			<meta
 				property="twitter:title"
-				content="Efrén Martínez | Front-End Engineer"
+				content="Efren Martinez | Frontend Engineer"
 			/>
 			<meta
 				property="twitter:description"
-				content="Soy Front End Engineer de la cuidad de Querétaro, México. Construyó productos y plataformas web. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="I´m Efren Martinez, a Frontend Engineer with experiencie in VueJS • Quasar • ReactJS • NextJS • JavaScript • CSS • NodeJS and much more. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta
 				property="twitter:image"
