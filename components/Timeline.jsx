@@ -5,8 +5,8 @@ const Timeline = (props) => {
 	const { experiencia } = props
 	return (
 		<div className={styles.timeline}>
-			<div class={styles.containerLine}></div>
-			<ul class={styles.containerItems}>
+			<div className={styles.containerLine}></div>
+			<ul className={styles.containerItems}>
 				{experiencia.map(
 					({ job, company, duration, img, alt, url }) => (
 						<TimelineItem

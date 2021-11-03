@@ -17,7 +17,7 @@ const MetaTags = ({ title }) => {
 			/>
 			<meta
 				name="description"
-				content="I´m Efren Martinez, a Frontend Engineer with experiencie in VueJS • Quasar • ReactJS • NextJS • JavaScript • CSS • NodeJS and much more. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="I build things for the web. Hey! I am Efren Martinez 🇲🇽  a Frontend Engineer with experiencie in 💚 VueJS • Quasar 💙 ReactJS • NextJS 💛 JavaScript • CSS and much more. "
 			/>
 			<meta charSet="UTF-8" />
 			<meta
@@ -33,7 +33,7 @@ const MetaTags = ({ title }) => {
 			/>
 			<meta
 				property="og:description"
-				content="I´m Efren Martinez, a Frontend Engineer with experiencie in VueJS • Quasar • ReactJS • NextJS • JavaScript • CSS • NodeJS and much more. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="I build things for the web. Hey! I am Efren Martinez 🇲🇽  a Frontend Engineer with experiencie in 💚 VueJS • Quasar •  💙  ReactJS • NextJS 💛 JavaScript • CSS and much more. "
 			/>
 			<meta
 				property="og:image"
@@ -48,7 +48,7 @@ const MetaTags = ({ title }) => {
 			/>
 			<meta
 				property="twitter:description"
-				content="I´m Efren Martinez, a Frontend Engineer with experiencie in VueJS • Quasar • ReactJS • NextJS • JavaScript • CSS • NodeJS and much more. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="I build things for the web. Hey! I am Efren Martinez 🇲🇽  a Frontend Engineer with experiencie in 💚  VueJS • Quasar 💙  ReactJS • NextJS 💛 JavaScript • CSS and much more. "
 			/>
 			<meta
 				property="twitter:image"

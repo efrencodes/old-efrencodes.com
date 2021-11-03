@@ -8,9 +8,9 @@ const Hero = (props) => {
 		<main className={styles.main}>
 			<h1 className={styles.title}>
 				Hey! I´m Efren Martinez,
-				<br />a Front End Engineer
+				<br />a frontend engineer
 				<br />
-				from Queretaro city, Mexico 🇲🇽 .
+				from Queretaro City, Mexico 🇲🇽 .
 				<br />I work on{' '}
 				<a
 					href="https://www.occ.com.mx/"

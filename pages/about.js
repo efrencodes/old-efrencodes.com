@@ -32,19 +32,23 @@ export default function About({ experiencia, socialMedia }) {
 				<h1 className={styles.title}>About</h1>
 				<h2 className={styles.subtitle}>Profile</h2>
 				<p className={styles.paragraph}>
-					Hey! I´m Efren Martinez 🇲🇽, a Frontend Engineer with more
+					<i>I build things for the web</i>
+				</p>
+				<p className={styles.paragraph}>
+					Hey! I am Efren Martinez 🇲🇽 a frontend engineer with more
 					than 5 years of experiencie.
 				</p>
 				<p className={styles.paragraph}>
-					With experience in 💚 VueJS, Quasar, 💙 ReactJS, NextJS 💛
-					JavaScript, CSS, NodeJS and much more.
+					With experience in 💚 VueJS • Quasar 💙 ReactJS • NextJS 💛
+					JavaScript • CSS • NodeJS and much more.
 				</p>
 				<p className={styles.paragraph}>
 					I worked on different projects as Ecommerce, web
-					applications, landings pages, api´s.
+					applications, landings pages and api´s.
 				</p>
 				<p className={styles.paragraph}>
-					I am currently learning English, GraphQL and TypeScript.
+					I am currently learning English, GraphQL and TypeScript in
+					Platzi.
 				</p>
 				<hr className={styles.separator} />
 				<h2 className={styles.subtitle}>Experience</h2>
