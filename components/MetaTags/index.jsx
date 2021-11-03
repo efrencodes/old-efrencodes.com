@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-const MetaTags = () => {
+const MetaTags = ({ title }) => {
 	return (
 		<Head>
-			<title>Efren Martinez | Frontend Engineer</title>
+			<title>{title}</title>
 			<link rel="canonical" href="https://www.efrencodes.com/" />
 			<link rel="preconnect" href="https://fonts.googleapis.com" />
 			<link
@@ -17,7 +17,7 @@ const MetaTags = () => {
 			/>
 			<meta
 				name="description"
-				content="Hey! I´m Efren Martinez a Front End Engineer. I build things for the web. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="I´m Efren Martinez, a Frontend Engineer with experiencie in VueJS • Quasar • ReactJS • NextJS • JavaScript • CSS • NodeJS and much more. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta charSet="UTF-8" />
 			<meta
@@ -33,7 +33,7 @@ const MetaTags = () => {
 			/>
 			<meta
 				property="og:description"
-				content="Hey! I´m Efren Martinez a Front End Engineer. I build things for the web. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="I´m Efren Martinez, a Frontend Engineer with experiencie in VueJS • Quasar • ReactJS • NextJS • JavaScript • CSS • NodeJS and much more. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta
 				property="og:image"
@@ -48,7 +48,7 @@ const MetaTags = () => {
 			/>
 			<meta
 				property="twitter:description"
-				content="Hey! I´m Efren Martinez a Front End Engineer. I build things for the web. #enmilocalsifunciona #sifuncionanolemuevas"
+				content="I´m Efren Martinez, a Frontend Engineer with experiencie in VueJS • Quasar • ReactJS • NextJS • JavaScript • CSS • NodeJS and much more. #enmilocalsifunciona #sifuncionanolemuevas"
 			/>
 			<meta
 				property="twitter:image"

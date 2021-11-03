@@ -20,6 +20,7 @@ Portfolio web built with Next.js, ReactJS, MDX, CSS modules and API Routes.
 -   Yarn for start the development server.
 -   Deploy in [Vercel](https://vercel.com/).
 -   Images hosted in [Cloudinary](https://cloudinary.com/)
+-   [Google Analytics](https://mariestarck.com/add-google-analytics-to-your-next-js-application-in-5-easy-steps/)
 
 ### 🕹 Installation
 
