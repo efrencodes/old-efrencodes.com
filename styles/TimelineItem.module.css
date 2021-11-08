@@ -7,8 +7,8 @@
 }
 .containerCircle {
 	background-color: rgb(170, 170, 170);
-	height: 40px;
-	width: 40px;
+	height: 60px;
+	width: 60px;
 }
 .containerTitle {
 	flex: 1;

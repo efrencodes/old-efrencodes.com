@@ -1,8 +1,8 @@
-import Hero from '../components/Hero'
-import Footer from '../components/Footer'
-import ProjectContainer from '../components/ProjectContainer'
-import MetaTags from '../components/MetaTags'
-import Nav from '../components/Nav'
+import Hero from '@/components/Hero'
+import Footer from '@/components/Footer'
+import ProjectContainer from '@/components/Project'
+import MetaTags from '@/components/MetaTags'
+import Nav from '@/components/Nav'
 // import { getAllFilesMetadata } from '../lib/mdx'
 
 export const getStaticProps = async () => {

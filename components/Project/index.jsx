@@ -1,5 +1,5 @@
-import styles from '../styles/ProjectContainer.module.css'
-import Card from '../components/Card'
+import styles from '@/styles/ProjectContainer.module.css'
+import Card from '@/components/Card'
 
 const ProjectContainer = (props) => {
 	const { projects } = props

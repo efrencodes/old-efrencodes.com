@@ -1,6 +1,6 @@
 import React from 'react'
-import MediaSocial from './MediaSocial'
-import styles from '../styles/Footer.module.css'
+import MediaSocial from '@/components/MediaSocial'
+import styles from '@/styles/Footer.module.css'
 
 const Footer = (props) => {
 	const { socialMedia } = props

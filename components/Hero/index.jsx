@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from '../styles/Hero.module.css'
-import MediaSocial from './MediaSocial'
+import styles from '@/styles/Hero.module.css'
+import MediaSocial from '@/components/MediaSocial'
 
 const Hero = (props) => {
 	const { socialMedia } = props

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/MediaSocial.module.css'
+import styles from '@/styles/MediaSocial.module.css'
 
 const MediaSocial = (props) => {
 	const { socialMedia, size } = props

@@ -1,5 +1,5 @@
 import TimelineItem from './TimelineItem'
-import styles from '../styles/Timeline.module.css'
+import styles from '@/styles/Timeline.module.css'
 
 const Timeline = (props) => {
 	const { experiencia } = props

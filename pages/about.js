@@ -1,8 +1,8 @@
 import styles from '../styles/About.module.css'
-import MetaTags from '../components/MetaTags'
-import Timeline from '../components/Timeline'
-import Footer from '../components/Footer'
-import Nav from '../components/Nav'
+import MetaTags from '@/components/MetaTags'
+import Timeline from '@/components/Timeline/Timeline'
+import Footer from '@/components/Footer'
+import Nav from '@/components/Nav'
 
 export const getStaticProps = async () => {
 	const URL = 'https://www.efrencodes.com/'
